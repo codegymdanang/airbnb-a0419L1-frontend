@@ -1,2 +1,2 @@
-# airbnb-a0419L1-backend
-AirBnB Backend of A0419L1 team
+# airbnb-a0419L1-frontend
+AirBnB Frontend of A0419L1 team
