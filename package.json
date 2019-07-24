@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "jquery": "^3.3.1"
+    "bootstrap-fileinput": "^5.0.4",
+    "jquery": "^3.3.1",
+    "summernote": "^0.8.12"
   }
 }

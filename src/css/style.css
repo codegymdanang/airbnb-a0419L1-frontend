@@ -184,3 +184,7 @@ footer {
 .btn-facebook:hover{
     background-color: #3b5998;
 }
+
+.summernote {
+    height: 550px;
+}
