@@ -1,8 +1,51 @@
 {
+  "name": "airbnb-a0419L1-frontend",
+  "version": "1.0.0",
+  "description": "Airbnb a0419L1 frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thienhungho/fpt-angularjs-assignment.git"
+  },
+  "keywords": [
+    "Angular",
+    "Bootstrap",
+    "Webpack"
+  ],
+  "author": "thienhungho",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/thienhungho/fpt-angularjs-assignment/issues"
+  },
+  "homepage": "https://github.com/thienhungho/fpt-angularjs-assignment#readme",
   "dependencies": {
+    "autoprefixer": "^9.6.1",
     "bootstrap": "^4.3.1",
     "bootstrap-fileinput": "^5.0.4",
     "jquery": "^3.3.1",
+    "popper.js": "^1.15.0",
     "summernote": "^0.8.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.1.0",
+    "exports-loader": "^0.7.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^4.1.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "terser-webpack-plugin": "^1.3.0",
+    "webpack": "^4.37.0",
+    "webpack-cli": "^3.3.6"
   }
 }

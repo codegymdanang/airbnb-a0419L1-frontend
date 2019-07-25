@@ -1,3 +1,5 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css");
+
 body {
     color: rgb(72, 72, 72);
     font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
@@ -26,7 +28,7 @@ body {
 }
 
 .search-input {
-    padding-left: 38px;
+    padding-left: 38px !important;
     background-color: transparent !important;
     margin: 0px !important;
     text-overflow: ellipsis !important;
