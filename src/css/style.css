@@ -6,6 +6,7 @@ body {
     font-size: 14px;
     line-height: 1.43;
     color: rgb(72, 72, 72);
+    padding-top: 100px;
 }
 
 .main-nav {
@@ -110,7 +111,7 @@ footer {
     border-top: 1px solid rgb(235, 235, 235) !important;
     padding-top: 48px !important;
     padding-bottom: 48px !important;
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 .footer-widget-title {
@@ -189,4 +190,11 @@ footer {
 
 .summernote {
     height: 550px;
+}
+
+.custom-card {
+    border: 0;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0,0,0,.1);
+    padding: 2rem;
 }
