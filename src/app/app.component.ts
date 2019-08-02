@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angularAirBnBA0419L1';
+  title = 'AirBnB A0419L1';
 }

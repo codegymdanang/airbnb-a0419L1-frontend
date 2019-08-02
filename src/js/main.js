@@ -4,3 +4,5 @@ $(document).ready(function() {
     focus: true
   });
 });
+
+console.log("Main Js");

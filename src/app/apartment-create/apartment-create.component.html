@@ -1,0 +1,80 @@
+<div class="row">
+  <div class="col-12 custom-card">
+    <h3>Add Listing</h3>
+    <form enctype="multipart/form-data" id="apartmentForm">
+      <div class="form-row">
+        <div class="form-group col-md-12">
+          <label for="inputName">Name</label>
+          <input class="form-control" id="inputName" placeholder="Name">
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Content</label>
+        <div id="summernote" class="summernote">Your apartment details</div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputType">Type</label>
+          <select id="inputType" class="form-control">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputPricePerDate">Price Per Date</label>
+          <input type="number" class="form-control" id="inputPricePerDate" min="0">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputNumberBedRoom">Number Bed room</label>
+          <input type="number" class="form-control" id="inputNumberBedRoom" min="0">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputNumberBathRoom">Number Bath room</label>
+          <input type="number" class="form-control" id="inputNumberBathRoom" min="0">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputStreet">Street</label>
+        <input type="text" class="form-control" id="inputStreet" placeholder="Apartment, studio, or floor">
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputCountry">Country</label>
+          <select id="inputCountry" class="form-control">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputCity">City</label>
+          <select id="inputCity" class="form-control">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label>Feature Image</label>
+          <input id="feature-image" type="file" class="file" data-browse-on-zone-click="true">
+        </div>
+        <div class="form-group col-md-6">
+          <label>Media</label>
+          <input id="media" type="file" class="file" data-browse-on-zone-click="true">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Agree to AirBnB 's <a href="">terms</a>
+          </label>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary btn-lg">Create</button>
+      <button type="reset" class="btn btn-secondary btn-lg">Cancel</button>
+    </form>
+  </div>
+</div>
