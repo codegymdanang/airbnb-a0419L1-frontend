@@ -27,7 +27,7 @@
     "autoprefixer": "^9.6.1",
     "bootstrap": "^4.3.1",
     "bootstrap-fileinput": "^5.0.4",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "popper.js": "^1.15.0",
     "summernote": "^0.8.12"
   },
